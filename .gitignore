@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+.python-version
+
+# Secrets / local config (never commit Wi-Fi passwords)
+esp32/OpenFlight_ESP32/config.h
+python_bridge/local_config.py
+*.local
+.env
+.env.*
+
+# Arduino / ESP32
+*.hex
+*.elf
+*.bin
+build/
+.pio/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temp
+*.log
+*.tmp
+.cache/
