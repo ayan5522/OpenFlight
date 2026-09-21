@@ -24,7 +24,7 @@ clock = pygame.time.Clock()
 # ESP32 TCP CONFIGURATION
 # ============================================================
 
-ESP32_IP = "192.168.145.178"
+ESP32_IP = "192.168.149.178"
 ESP32_PORT = 5000
 
 tcp_socket = None
